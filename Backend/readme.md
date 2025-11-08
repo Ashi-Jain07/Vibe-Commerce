@@ -17,6 +17,7 @@ It provides REST APIs for user authentication, product listing, cart management,
 
 ## 📁 Project Structure
 
+<pre> ```
 backend/
 ├── config/
 │ ├── dbConfig.js
@@ -40,6 +41,7 @@ backend/
 ├── .env.example
 ├── package.json
 └── server.js
+``` </pre>
 
 ---
 
@@ -77,7 +79,7 @@ Production:
 npm start
 ```
 ## 🧩 API Endpoints
-
+<pre> ```
 Auth Routes
 Method	Endpoint	        Description
 POST	/api/auth/register	Register a new user
@@ -98,6 +100,7 @@ Checkout Routes (Requires Auth)
 Method	Endpoint	    Description
 POST	/api/checkout	Mock checkout and generate receipt
 GET	    /api/checkout	Get user's past orders
+``` </pre>
 
 🧠 Notes
 Products are auto-seeded when /api/products is called for the first time.

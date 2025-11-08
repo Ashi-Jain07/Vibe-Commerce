@@ -17,6 +17,7 @@ It interacts with the backend REST APIs to display products, manage cart, and pe
 
 ## 📁 Project Structure
 
+<pre> ```
 frontend/
 ├── src/
 │ ├── api.js
@@ -37,6 +38,7 @@ frontend/
 ├── package.json
 ├── README.md
 └── index.html
+``` </pre>
 
 ---
 
